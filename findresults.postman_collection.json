@@ -1,0 +1,31 @@
+{
+	"variables": [],
+	"info": {
+		"name": "findresults",
+		"_postman_id": "d16f2ee4-9bf2-9475-ab62-22967ca26d66",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/api/getResult/",
+			"request": {
+				"url": "http://localhost:3000/api/getResult/",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"1\": \"B\",\n    \"2\": \"B\",\n    \"3\": \"D\",\n    \"4\": \"C\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
